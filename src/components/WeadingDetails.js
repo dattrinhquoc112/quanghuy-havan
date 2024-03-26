@@ -53,7 +53,13 @@ const WeadingDetails = () => {
             }}
           />
         ))}
-        <h2>🙆‍♂️ QR cho hiện đại nhé 🙆‍♂️</h2>
+        <h2
+          style={{
+            marginTop: "50px",
+          }}
+        >
+          🙆‍♂️ QR cho hiện đại nhé 🙆‍♂️
+        </h2>
         <img
           src={QR_HUY}
           style={{
