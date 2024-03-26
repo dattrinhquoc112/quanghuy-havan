@@ -714,7 +714,6 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu {
 .ceremony-area {
   position: relative;
   z-index: 1;
-  background-image: url(./images/counter-1-1600x600.jpg);
   background-size: cover;
   color: #fff;
 }
