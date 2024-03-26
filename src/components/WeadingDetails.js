@@ -39,23 +39,20 @@ const WeadingDetails = () => {
     <section className="section w-details-area center-text">
       <div className="container">
         <h2>Bộ ảnh của chúng mình</h2>
-        {/* <div className="row galery-group">
-          <img src={ANHCUOI_1} />
-          <img src={ANHCUOI_2} />
-          <img src={ANHCUOI_3} />
-          <img src={ANHCUOI_4} />
-          <img src={ANHCUOI_5} />
-          <img src={ANHCUOI_6} />
-          <img src={ANHCUOI_7} />
-          <img src={HAGIANG_1} />
-          <img src={HAGIANG_2} />
-          <img src={HOABINH_1} />
-          <img src={PHUQUOC_1} />
-          <img src={PHUQUOC_2} />
-          <img src={TET_1} />
-          <img src={TET_2} />
-          <img src={TET_3} />
-        </div> */}
+        {listImages.map((elem, index) => (
+          <img
+            src={elem}
+            key={index}
+            style={{
+              width: "300px",
+              objectFit: "contain",
+              marginTop: "20px",
+              borderRadius: "20px",
+              marginLeft: "10px",
+              marginRight: "10px",
+            }}
+          />
+        ))}
         <h2>🙆‍♂️ QR cho hiện đại nhé 🙆‍♂️</h2>
         <img
           src={QR_HUY}
@@ -66,17 +63,6 @@ const WeadingDetails = () => {
             borderRadius: "20px",
           }}
         />
-        {listImages.map((elem) => (
-          <img
-            src={elem}
-            style={{
-              width: "300px",
-              objectFit: "contain",
-              marginTop: "20px",
-              borderRadius: "20px",
-            }}
-          />
-        ))}
       </div>
     </section>
   );
