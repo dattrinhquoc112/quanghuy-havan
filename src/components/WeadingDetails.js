@@ -40,9 +40,21 @@ const WeadingDetails = () => {
       <div className="container">
         <h2>Bộ ảnh của chúng mình</h2>
         <div className="galery-group">
-          {listImages.map((elem, index) => (
-            <img key={`galery-${index}`} src={elem} />
-          ))}
+          <img src={ANHCUOI_1} />
+          <img src={ANHCUOI_2} />
+          <img src={ANHCUOI_3} />
+          <img src={ANHCUOI_4} />
+          <img src={ANHCUOI_5} />
+          <img src={ANHCUOI_6} />
+          <img src={ANHCUOI_7} />
+          <img src={HAGIANG_1} />
+          <img src={HAGIANG_2} />
+          <img src={HOABINH_1} />
+          <img src={PHUQUOC_1} />
+          <img src={PHUQUOC_2} />
+          <img src={TET_1} />
+          <img src={TET_2} />
+          <img src={TET_3} />
         </div>
         <h2>🙆‍♂️ QR cho hiện đại nhé 🙆‍♂️</h2>
         <img
