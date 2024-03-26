@@ -776,7 +776,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu {
   margin-top: 20px;
   margin-bottom: 50px;
   img {
-    width: 150px;
+    width: 300px;
     height: fit-content;
     align-self: center;
     object-fit: contain;
