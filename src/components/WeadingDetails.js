@@ -41,7 +41,7 @@ const WeadingDetails = () => {
     <section className="section w-details-area center-text">
       <div className="container">
         <h2>Bộ ảnh của chúng mình</h2>
-        <Fade bottom>
+        {/* <Fade bottom> */}
           <div
             className="row"
             style={{
@@ -53,7 +53,7 @@ const WeadingDetails = () => {
           >
             {listImages.map((elem, index) => (
               <img
-                key={index}
+                key={`galery-${index}`}
                 src={elem}
                 style={{
                   width: "200px",
@@ -65,7 +65,7 @@ const WeadingDetails = () => {
               />
             ))}
           </div>
-        </Fade>
+        {/* </Fade> */}
         <h2>🙆‍♂️ QR cho hiện đại nhé 🙆‍♂️</h2>
         <img
           src={QR_HUY}
