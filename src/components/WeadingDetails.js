@@ -39,7 +39,7 @@ const WeadingDetails = () => {
     <section className="section w-details-area center-text">
       <div className="container">
         <h2>Bộ ảnh của chúng mình</h2>
-        <div className="galery-group">
+        <div className="row galery-group">
           <img src={ANHCUOI_1} />
           <img src={ANHCUOI_2} />
           <img src={ANHCUOI_3} />
