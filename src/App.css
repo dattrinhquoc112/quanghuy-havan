@@ -770,6 +770,23 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu {
   margin-top: 30px;
 }
 
+.galery-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  img {
+    width: 150px;
+    height: fit-content;
+    align-self: center;
+    object-fit: contain;
+    border-radius: 20px;
+  }
+}
+
 /* ---------------------------------
 11. FOOTER
 --------------------------------- */

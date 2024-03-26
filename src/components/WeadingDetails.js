@@ -39,29 +39,9 @@ const WeadingDetails = () => {
     <section className="section w-details-area center-text">
       <div className="container">
         <h2>Bộ ảnh của chúng mình</h2>
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            flexWrap: "wrap",
-            gap: "20px",
-            justifyContent: "center",
-            marginTop: "20px",
-            marginBottom: "50px",
-          }}
-        >
+        <div className="galery-group">
           {listImages.map((elem, index) => (
-            <img
-              key={`galery-${index}`}
-              src={elem}
-              style={{
-                width: "150px",
-                height: "fit-content",
-                alignSelf: "center",
-                objectFit: "contain",
-                borderRadius: "20px",
-              }}
-            />
+            <img key={`galery-${index}`} src={elem} />
           ))}
         </div>
         <h2>🙆‍♂️ QR cho hiện đại nhé 🙆‍♂️</h2>
