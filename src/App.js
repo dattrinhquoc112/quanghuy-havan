@@ -59,6 +59,7 @@ function App() {
   const startAnimation = () => {
     setIsLoader(false);
     const music = new Audio(mp3);
+    music.loop = true;
     music.play();
     confetti({
       origin: { y: 0.9 },
