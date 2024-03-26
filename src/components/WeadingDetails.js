@@ -39,7 +39,7 @@ const WeadingDetails = () => {
     <section className="section w-details-area center-text">
       <div className="container">
         <h2>Bộ ảnh của chúng mình</h2>
-        <div className="row galery-group">
+        {/* <div className="row galery-group">
           <img src={ANHCUOI_1} />
           <img src={ANHCUOI_2} />
           <img src={ANHCUOI_3} />
@@ -55,7 +55,7 @@ const WeadingDetails = () => {
           <img src={TET_1} />
           <img src={TET_2} />
           <img src={TET_3} />
-        </div>
+        </div> */}
         <h2>🙆‍♂️ QR cho hiện đại nhé 🙆‍♂️</h2>
         <img
           src={QR_HUY}
@@ -66,6 +66,17 @@ const WeadingDetails = () => {
             borderRadius: "20px",
           }}
         />
+        {listImages.map((elem) => (
+          <img
+            src={elem}
+            style={{
+              width: "300px",
+              objectFit: "contain",
+              marginTop: "20px",
+              borderRadius: "20px",
+            }}
+          />
+        ))}
       </div>
     </section>
   );
