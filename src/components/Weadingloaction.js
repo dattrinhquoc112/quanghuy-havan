@@ -11,6 +11,8 @@ const Weadingloaction = () => {
       <div className="container">
         <div className="row">
           <div className="col-sm-1"></div>
+          <iframe width="1280" height="720" src="https://www.youtube.com/embed/XakSLktg_tE" title="Quang Huy Thúy Vân" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            {/* <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe> */}
           <div className="col-sm-10">
             <div className="heading">
               <h3>Cùng ngắm nhìn những cái "lần đầu" của chúng mình nhé ~</h3>
